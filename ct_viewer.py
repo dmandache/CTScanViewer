@@ -10,7 +10,7 @@ from IPython.display import display, clear_output
 import time
 
 # List of DICOM tags to display
-DICOM_TAGS_TO_DISPLAY = ['patient_id', 'date']
+DICOM_TAGS_TO_DISPLAY = ['patient_id', 'age']
 
 def load_nifti_ras(file_path):
     """Load a NIfTI file and return the image data oriented in RAS+."""
@@ -164,3 +164,16 @@ class CTScanViewer:
         """Handle next button click event."""
         self.current_index = (self.current_index + 1) % len(self.df)  # Increment scan index
         self.load_data()  # Load the next scan data
+
+
+
+# # Example usage
+# df = pd.DataFrame({
+#     'ct_scan_path': ['path_to_ct_scan1.nii', 'path_to_ct_scan2.nii'],
+#     'segmentation_path': ['path_to_segmentation1.nii', 'path_to_segmentation2.nii'],
+#     'patient_id': [1, 2],
+#     'age': [65, 70],
+#     'sex': ['M', 'F']
+# })
+
+# viewer = CTScanViewer(df, 'ct_scan_path', 'segmentation_path')
