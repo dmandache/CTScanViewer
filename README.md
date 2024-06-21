@@ -62,20 +62,6 @@ viewer = CTScanViewer(df)
 
 3. Run the code in a Jupyter Notebook cell to display the interactive widget.
 
-## Example
-
-```python
-# Example usage
-df = pd.DataFrame({
-    'ct_scan_path': ['path_to_ct_scan1.nii', 'path_to_ct_scan2.nii'],
-    'segmentation_path': ['path_to_segmentation1.nii', 'path_to_segmentation2.nii'],
-    'patient_id': [1, 2],
-    'age': [65, 70],
-    'sex': ['M', 'F']
-})
-
-viewer = CTScanViewer(df)
-```
 
 ## License
 
