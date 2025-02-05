@@ -4,7 +4,7 @@
 
 CTScanViewer is a Jupyter Notebook widget for visualizing 3D CT scans along with their organ segmentations. The widget allows users to navigate through different slices, adjust the transparency of the segmentation overlay, and switch between different viewing planes (axial, sagittal, coronal). It also provides a progress bar to indicate loading status and displays metadata for each scan.
 
-![preview ux]((https://github.com/dmandache/CTScanViewer/blob/main/preview.png)
+![preview ux](https://github.com/dmandache/CTScanViewer/blob/main/preview.png)
 
 ## Features
 
