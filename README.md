@@ -30,7 +30,7 @@ CTScanViewer is a Jupyter Notebook widget for visualizing 3D CT scans along with
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/CTScanViewer.git
+git clone https://github.com/dmandache/CTScanViewer.git
 cd CTScanViewer
 ```
 
